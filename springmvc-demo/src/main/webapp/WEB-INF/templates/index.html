@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1>你好</h1>
+<!--用th修饰href属性，然后就可以使用@{} 来自动填充绝对路径了-->
+<a th:href="@{/target}">跳转到target页面</a>
+</body>
+</html>
