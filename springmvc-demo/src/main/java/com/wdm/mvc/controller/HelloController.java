@@ -23,7 +23,7 @@ public class HelloController {
 
 //    @RequestMapping("/aa")  //将路径“/target”和target.html页面联系起来
 //    public String toTarget() {
-//        return "测试";
+//        return "测试";sss
 //    }
 }
 
